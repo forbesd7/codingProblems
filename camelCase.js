@@ -20,8 +20,7 @@ function toCamelCase(str) {
       let finalWord = x + restOfWord;
       camelCasedWord += finalWord;
     }
-    console.log(camelCasedWord);
   }
   return camelCasedWord;
 }
-console.log(toCamelCase("the_stealth_warrior"));
+console.log(toCamelCase("thestealth_warrior"));
